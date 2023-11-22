@@ -1,0 +1,50 @@
+.custom-card {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.custom-card .ant-card-head {
+  border-bottom: none;
+  padding: 16px;
+  border-radius: 12px 12px 20px 20px;
+}
+
+.custom-card .ant-card-body {
+  padding: 16px;
+  border-radius: 0 0 12px 12px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.circle-icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.title-text {
+  margin-top: 5px; /* Add a small gap between icon and title */
+  text-align: center;
+}
+
+.custom-card:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+.arrow-icon {
+  display: block;
+  color: #10b981;
+  position: relative;
+  top: -10px; /* Adjust this value to move the icon upward */
+}

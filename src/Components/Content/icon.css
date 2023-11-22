@@ -1,0 +1,8 @@
+.button {
+  color: #05563b;
+  border-color: #10b981;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
